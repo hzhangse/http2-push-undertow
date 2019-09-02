@@ -41,4 +41,5 @@ keytool -keystore cacerts -import -alias certificatekey -trustcacerts -file self
 查看是否导入成功
 keytool -list -keystore cacerts -v
 
-
+client 端基于ｎｅｔｔｙ实现
+https://github.com/hzhangse/netty/blob/4.1/example/src/main/java/io/netty/example/http2/helloworld/client/Client.java
